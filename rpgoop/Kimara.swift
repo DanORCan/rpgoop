@@ -18,4 +18,12 @@ class Kimara: Enemy {
     override var type:  String {
         return "Kimara"
     }
+    
+    override func attemptAttach(attackPwr: Int) -> Bool {
+        if attackPwr >= IMMUNE_MAX {
+            return super.attemptAttach(attackPwr)
+        } else {
+            return false
+        }
+    }
 }

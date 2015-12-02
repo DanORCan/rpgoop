@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		43869D8F1C0E6FDD00A15443 /* DevilWizard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43869D8E1C0E6FDD00A15443 /* DevilWizard.swift */; };
 		43889F911C0BCA7B0002F3C0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43889F901C0BCA7B0002F3C0 /* AppDelegate.swift */; };
 		43889F931C0BCA7B0002F3C0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43889F921C0BCA7B0002F3C0 /* ViewController.swift */; };
 		43889F961C0BCA7B0002F3C0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 43889F941C0BCA7B0002F3C0 /* Main.storyboard */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		43869D8E1C0E6FDD00A15443 /* DevilWizard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DevilWizard.swift; sourceTree = "<group>"; };
 		43889F8D1C0BCA7B0002F3C0 /* rpgoop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = rpgoop.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43889F901C0BCA7B0002F3C0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43889F921C0BCA7B0002F3C0 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -72,6 +74,7 @@
 				43D3E9A01C0D128B00E60C96 /* Player.swift */,
 				43D3E9A21C0D154700E60C96 /* Enemy.swift */,
 				43E0998A1C0D209000853B07 /* Kimara.swift */,
+				43869D8E1C0E6FDD00A15443 /* DevilWizard.swift */,
 			);
 			path = rpgoop;
 			sourceTree = "<group>";
@@ -150,6 +153,7 @@
 			files = (
 				43D3E9A11C0D128B00E60C96 /* Player.swift in Sources */,
 				43D3E9A31C0D154700E60C96 /* Enemy.swift in Sources */,
+				43869D8F1C0E6FDD00A15443 /* DevilWizard.swift in Sources */,
 				43E0998B1C0D209000853B07 /* Kimara.swift in Sources */,
 				43889FA31C0BD5220002F3C0 /* Character.swift in Sources */,
 				43889F931C0BCA7B0002F3C0 /* ViewController.swift in Sources */,

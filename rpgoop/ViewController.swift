@@ -50,6 +50,8 @@ class ViewController: UIViewController {
             
             enemy = DevilWizard(startingHp: 60, attackPwr: 15)
         }
+        
+        enemyImg.hidden = false
     }
     
     
@@ -58,6 +60,8 @@ class ViewController: UIViewController {
         
         chestBtn.hidden = true
         printLbl.text = chestMessage
+        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "generateRandomEnemy", userInfo: nil, repeats: false)
+        
     }
 
     @IBAction func attackTapped(sender: AnyObject) {
@@ -65,6 +69,7 @@ class ViewController: UIViewController {
         if enemy.attemptAttach(player.attackPwr) {
             
             printLbl.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
+            enemyHpLbl.text = "\(enemy.hp)"
             
         } else {
             
@@ -72,6 +77,7 @@ class ViewController: UIViewController {
         }
         
         if let loot = enemy.dropLoot() {
+            player.addItemToInventory(loot)
             chestMessage = "\(player.name) found \(loot)"
             chestBtn.hidden = false
         }

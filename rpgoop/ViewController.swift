@@ -62,7 +62,7 @@ class ViewController: UIViewController {
         
         chestBtn.hidden = true
         printLbl.text = chestMessage
-        NSTimer.scheduledTimerWithTimeInterval(2.0, target: self, selector: "generateRandomEnemy", userInfo: nil, repeats: false)
+        NSTimer.scheduledTimerWithTimeInterval(1.0, target: self, selector: "generateRandomEnemy", userInfo: nil, repeats: false)
         
     }
 
@@ -86,7 +86,7 @@ class ViewController: UIViewController {
         
         if !enemy.isAlive {
             enemyHpLbl.text = ""
-            printLbl.text = "Killed \(enemy.type)"
+            printLbl.text = "Killed \(enemy.type) click on Treasure"
             enemyImg.hidden = true
         }
     }

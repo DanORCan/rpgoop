@@ -22,7 +22,7 @@
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                             </imageView>
                             <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qxb-QJ-zVF">
-                                <rect key="frame" x="229" y="385" width="150" height="154"/>
+                                <rect key="frame" x="225" y="385" width="150" height="154"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="154" id="QkB-j7-c7F"/>
                                     <constraint firstAttribute="width" constant="150" id="VAr-l5-gcX"/>
@@ -116,12 +116,12 @@
                             <constraint firstItem="8a6-d0-aDn" firstAttribute="centerY" secondItem="iJT-lW-Uff" secondAttribute="centerY" id="MtW-mN-VbB"/>
                             <constraint firstAttribute="trailingMargin" secondItem="8a6-d0-aDn" secondAttribute="trailing" constant="14" id="N3F-61-foF"/>
                             <constraint firstItem="W7p-Xw-Ou4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="8" id="SbE-3k-1fy"/>
-                            <constraint firstItem="hC8-ax-yjq" firstAttribute="leading" secondItem="qxb-QJ-zVF" secondAttribute="trailing" constant="14" id="ecB-8U-cP3"/>
                             <constraint firstAttribute="trailing" secondItem="EDu-TV-lo7" secondAttribute="trailing" id="fi3-5B-IQA"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="EDu-TV-lo7" secondAttribute="bottom" id="gbh-5g-NuX"/>
                             <constraint firstItem="mmD-Hg-9tq" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="hYx-HE-vFg"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="0Qq-md-BZn" secondAttribute="bottom" id="hgh-s6-xxB"/>
                             <constraint firstAttribute="trailing" secondItem="hC8-ax-yjq" secondAttribute="trailing" constant="13" id="mAS-8e-hvE"/>
+                            <constraint firstItem="qxb-QJ-zVF" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mJE-YM-u9g"/>
                             <constraint firstItem="W7p-Xw-Ou4" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="mac-Je-EbW"/>
                             <constraint firstItem="0Qq-md-BZn" firstAttribute="top" secondItem="iJT-lW-Uff" secondAttribute="bottom" constant="120" id="nAn-d3-Gii"/>
                             <constraint firstItem="EDu-TV-lo7" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="tqc-jK-doF"/>
@@ -141,7 +141,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="345" y="440"/>
+            <point key="canvasLocation" x="377" y="432"/>
         </scene>
     </scenes>
     <resources>

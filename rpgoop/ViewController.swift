@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         generateRandomEnemy()
         
         playerHpLbl.text = "\(player.hp) HP"
-    
+        enemyHpLbl.text = "\(enemy.hp) HP"
     }
     
     func generateRandomEnemy() {
@@ -46,9 +46,11 @@ class ViewController: UIViewController {
             
             enemy = Kimara(startingHp: 50, attackPwr: 12)
             
+            
         } else {
             
             enemy = DevilWizard(startingHp: 60, attackPwr: 15)
+            
         }
         
         enemyImg.hidden = false
@@ -69,7 +71,7 @@ class ViewController: UIViewController {
         if enemy.attemptAttach(player.attackPwr) {
             
             printLbl.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
-            enemyHpLbl.text = "\(enemy.hp)"
+            enemyHpLbl.text = "\(enemy.hp) HP"
             
         } else {
             

@@ -9,8 +9,8 @@
 import Foundation
 
 class Character {
-    private var _hp: Int = 100
-    private var _attackPwr = 10
+    private var _hp: Int = 100    //hp health points
+    private var _attackPwr = 10   //attackPWr attack power
     
     var attackPwr:  Int {
         get {
@@ -24,6 +24,8 @@ class Character {
         }
     }
     
+    // this is a computed property
+    // it has a computation before it returns a value
     var isAlive: Bool {
         get {
             if hp <= 0 {

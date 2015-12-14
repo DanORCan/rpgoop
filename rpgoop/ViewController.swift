@@ -35,7 +35,7 @@ class ViewController: UIViewController {
         generateRandomEnemy()
         
         playerHpLbl.text = "\(player.hp) HP"
-        enemyHpLbl.text = "\(enemy.hp) HP"
+        enemyHpLbl.text = "\(enemy.hp) HP         \(enemy.type)"
     }
     
     func generateRandomEnemy() {
@@ -71,7 +71,7 @@ class ViewController: UIViewController {
         if enemy.attemptAttach(player.attackPwr) {
             
             printLbl.text = "Attacked \(enemy.type) for \(player.attackPwr) HP"
-            enemyHpLbl.text = "\(enemy.hp) HP"
+            enemyHpLbl.text = "\(enemy.hp) HP         \(enemy.type)"
             
         } else {
             
